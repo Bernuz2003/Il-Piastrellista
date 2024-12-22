@@ -1,5 +1,10 @@
 # Il Piastrellista - Puzzle Solver
 
+![Sorting Visualizer](https://github.com/Bernuz2003/Il-Piastrellista/blob/master/media/il_piastrellista_img.png)
+
+> Un'applicazione interattiva per visualizzare e comprendere il funzionamento degli algoritmi di ordinamento.
+
+## **Descrizione**
 Benvenuto in **Il Piastrellista**, un’applicazione React che simula un puzzle di “saltelli” su una griglia NxN. Lo scopo è riempire la griglia con numeri progressivi (da 1 fino a `N * N`) partendo da una cella iniziale, spostandosi secondo una serie di mosse predefinite (simili alle mosse di un cavallo negli scacchi ma con saltelli personalizzati).
 
 ## Funzionalità
@@ -88,6 +93,13 @@ Questo comando crea una cartella `dist` con i file pronti per essere distribuiti
 - **`src/utils/solver.ts`**: Contiene la logica di backtracking, incluse l’euristica di riordino, i controlli preliminari e il pruning.
 - **`src/components`**: Contiene i vari componenti React (Matrix, Controls, SearchStatus, ecc.) che gestiscono l’interfaccia grafica.
 - **`src/App.tsx`**: Entry point dell’app React. Gestisce lo stato globale della ricerca, il timer, e le interazioni con i componenti.
+
+---
+
+## **Video Dimostrativo**
+<video controls src="https://github.com/Bernuz2003/Il-Piastrellista/blob/master/media/il_piastrellista_demo.mp4" title="Il-Piastrellista-demo"></video>
+
+---
 
 ## Contribuire
 
