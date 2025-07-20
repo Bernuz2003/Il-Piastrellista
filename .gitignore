@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# File di lock
+package-lock.json
+
+# Cache di Vite
+.vite/
+
+# Output di build (se esiste)
+dist/
+
+# File di log
+*.log
+
+# Variabili d'ambiente
+.env
+.env.*
+
+# File temporanei e di sistema
+.DS_Store
+Thumbs.db
+
+# File media locali pesanti (opzionale, rimuovi se vuoi tenerli)
+media/
+
+# File backup/temporanei dell'editor
+*.swp
+*.tmp
+*~
+
+# Output compilati (se si usano strumenti particolari)
+*.out
